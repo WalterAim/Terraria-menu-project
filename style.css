@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background: url(https://static.wikia.nocookie.net/terraria_gamepedia/images/9/9c/Forest_background_1.png/revision/latest?cb=20200816173522);
+    background: url(Forest_background_1.webp);
     min-width: 100vw;
     min-height: 100vh;
     animation: days 120s infinite;
@@ -104,8 +104,8 @@ main button:hover {
 }
 
 .mainIn {
-    width: 50vw;
-    background-color: rgba(0,0,0,0.1);
+    width: 100vw;
+    /*background-color: rgba(0,0,0,0.1)*/;
 }
 
 .buttonBack {
