@@ -1,0 +1,140 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background: url(https://static.wikia.nocookie.net/terraria_gamepedia/images/9/9c/Forest_background_1.png/revision/latest?cb=20200816173522);
+    min-width: 100vw;
+    min-height: 100vh;
+    animation: days 120s infinite;
+    background-size: 100%;
+
+}
+
+@keyframes days {
+    0% {
+        background-position-x: 2000px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
+
+
+header {
+    padding: 20px 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 28vh;
+    transform: rotateX(0deg);
+
+}
+
+header img {
+    height: 22vh;
+    width: auto;
+    animation-name: titleSlide;
+    animation: titleSlide 40s infinite;
+}
+
+@keyframes titleSlide {
+    0% {
+        transform: scale(0.95) rotate(3deg);
+    }
+    12% {
+        transform: scale(1) rotate(-3deg) ;
+    }
+    25% {
+        transform: scale(1.05) rotate(3deg) ;
+    }
+    37% {
+        transform: scale(1) rotate(-3deg);
+    }
+    50% {
+        transform: scale(0.95) rotate(3deg);
+    }
+    62% {
+        transform: scale(1) rotate(-3deg);
+    }
+    75% {
+        transform: scale(1.05) rotate(3deg);
+    }
+    87% {
+        transform: scale(1) rotate(-3deg);
+    }
+    100% {
+        transform: scale(0.95) rotate(3deg);
+    }
+}
+
+main {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-direction: column;
+}
+
+main button {
+    -webkit-text-stroke: 1px black;
+    color: rgba(120, 120, 120, 1);
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+    font-family: cursive;
+    font-weight: 800;
+    width: auto;
+    transition:0.2;
+}
+
+main .copias-vendidas {
+    width: max-content;
+}
+
+main button:hover {
+    color: white;
+
+    letter-spacing: 0.5px;
+}
+
+.mainIn {
+    width: 50vw;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.buttonBack {
+    background-color: rgba(0, 50, 150, 0.7);
+    border-radius: 8px;
+    padding: 8px 18px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: cursive;
+    color: white;
+    border: solid 1px #000;
+    width: 200px;
+}
+
+.buttonBack:hover {
+    background-color: rgba(0, 50, 150, 0.2);
+}
+
+.box {
+    background-color: rgba(0, 50, 100, 0.5);
+    border-radius: 8px;
+    padding: 18px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    min-width: 30%;
+    height: 200px;
+}
