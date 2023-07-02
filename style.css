@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background: url(Forest_background_1.webp);
+    background: url(Forest_background_1.png);
     min-width: 100vw;
     min-height: 100vh;
     animation: days 120s infinite;
@@ -105,6 +105,7 @@ main button:hover {
 
 .mainIn {
     width: 100vw;
+    display: flex;
     /*background-color: rgba(0,0,0,0.1)*/;
 }
 
@@ -137,4 +138,11 @@ main button:hover {
     -webkit-text-stroke: 1px black;
     min-width: 30%;
     height: 200px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 50%;
 }
