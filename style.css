@@ -74,14 +74,14 @@ header img {
     }
 }
 
-main {
+.screens {
     display: flex;
     gap: 8px;
     align-items: center;
     flex-direction: column;
 }
 
-main button {
+.screens button {
     -webkit-text-stroke: 1px black;
     color: rgba(120, 120, 120, 1);
     background-color: transparent;
@@ -93,11 +93,11 @@ main button {
     transition:0.2;
 }
 
-main .copias-vendidas {
+.screens .copias-vendidas {
     width: max-content;
 }
 
-main button:hover {
+.screens button:hover {
     color: white;
 
     letter-spacing: 0.5px;
@@ -110,20 +110,20 @@ main button:hover {
 }
 
 .buttonBack {
-    background-color: rgba(0, 50, 150, 0.7);
-    border-radius: 8px;
-    padding: 8px 18px;
-    text-align: center;
-    font-weight: 800;
-    font-size: 32px;
-    font-family: cursive;
-    color: white;
-    border: solid 1px #000;
-    width: 200px;
+    background-color: rgba(0, 50, 150, 0.7) !important;
+    border-radius: 8px !important;
+    padding: 8px 18px !important;
+    text-align: center !important;
+    font-weight: 800 !important;
+    font-size: 32px !important;
+    font-family: cursive !important;
+    color: white !important;
+    border: solid 1px #000 !important;
+    width: 50% !important;
 }
 
 .buttonBack:hover {
-    background-color: rgba(0, 50, 150, 0.2);
+    background-color: rgba(0, 50, 150, 0.2) !important;
 }
 
 .box {
@@ -145,4 +145,19 @@ main button:hover {
     flex-direction: column;
     gap: 8px;
     width: 50%;
+}
+
+.title {
+    background-color: #bbbbdd;
+}
+
+.cont2 {
+    font-size: 18px;
+    padding: 12px;
+    background-color: rgba(0, 50, 150, 0.7);
+    border-radius: 8px;
+    color: white;
+    font-family: cursive;
+    font-weight: 600;
+    -webkit-text-stroke: 1px black;
 }
